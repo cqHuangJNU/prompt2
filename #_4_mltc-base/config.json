@@ -1,0 +1,22 @@
+{
+  "reuters_en": {
+      "task_name": "reuters_en",
+      "data_dir" : "../@_DATASETs/reuters-21578_en_ml/",
+      "batch_size": 16,
+      "epoch_num": 20,
+      "wrapper_type": "mlm",
+      "max_seq_length": 24,
+      "pattern_id": 3,
+      "verbalizer_cal_type": "sum"
+  },
+  "aapd_en": {
+      "task_name": "aapd_en",
+      "data_dir" : "../@_DATASETs/aapd_en_ml/",
+      "batch_size": 16,
+      "epoch_num": 20,
+      "wrapper_type": "mlm",
+      "max_seq_length": 24,
+      "pattern_id": 3,
+      "verbalizer_cal_type": "sum"
+  }
+}
